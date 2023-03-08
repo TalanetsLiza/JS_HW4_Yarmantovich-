@@ -23,3 +23,35 @@
     }
 
 }
+
+{
+    // Task 3.1
+
+    const arr = [];
+    let result = 0;
+    
+    for (let i = 23; i <= 57; i++) {
+        arr.push(i);
+        result += i;
+    }
+
+    console.log(arr);
+    console.log(`Сумма массива = ${result}`);
+}
+
+{
+    // Task 3.2
+
+    const arr = [];
+    let result = 0;
+    let i = 23;
+    
+    while (i <= 57) {
+        arr.push(i);
+        result += i;
+        i++;
+    }
+
+    console.log(arr);
+    console.log(`Сумма массива = ${result}`);
+}

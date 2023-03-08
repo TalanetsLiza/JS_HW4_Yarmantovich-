@@ -70,3 +70,20 @@
     }
 
 }
+
+{
+    // Task 5
+
+    const arr = ["ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ", "ВС"];
+
+    for (let i = 0; i < arr.length; i++) {
+        const day = arr[i];
+
+        if (day === "СБ" || day === "ВС") {
+            document.write(`<b> ${day} </b>`);
+        } else {
+            document.write(`${day} `);
+        }
+    }
+
+}

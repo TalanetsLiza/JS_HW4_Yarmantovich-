@@ -87,3 +87,11 @@
     }
 
 }
+
+{
+    // Task 6
+
+    let arr = ["Мама", "Папа", "Брат"];
+    arr[arr.length] = "Сестра";
+    console.log(arr);
+}

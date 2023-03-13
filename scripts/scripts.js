@@ -92,6 +92,7 @@
     // Task 6
 
     let arr = ["Мама", "Папа", "Брат"];
-    arr[arr.length] = "Сестра";
-    console.log(arr);
+    arr.push("Сестра");
+    console.log(arr[arr.length - 1]);
+
 }

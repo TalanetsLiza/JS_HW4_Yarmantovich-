@@ -125,3 +125,21 @@
     console.log(numbers);
 
 }
+
+{
+    // Task 8
+
+    const numbers = [12, false, 'Текст', 4, 2, -5, 0];
+    let i = 0;
+
+    numbers.reverse();
+    console.log(numbers);
+
+    while(i < numbers.length) {
+
+        console.log(numbers[i]);
+
+        i++;
+    }
+
+}

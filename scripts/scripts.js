@@ -97,34 +97,34 @@
 
 }
 
-{
-    // Task 7
+// {
+//     // Task 7
 
-    const numbers = [];
+//     const numbers = [];
 
-    while (true) {
-        const message = prompt("Введите число!");
+//     while (true) {
+//         const message = prompt("Введите число!");
 
-        if(message === " "){
-            break
-        }
+//         if(message === " "){
+//             break
+//         }
 
-        if(isNaN(message)){
-            alert("Введите число");
-            continue;
-        }
+//         if(isNaN(message)){
+//             alert("Введите число");
+//             continue;
+//         }
         
-        numbers.push(+message);
+//         numbers.push(+message);
         
-    }
+//     }
 
-    console.log(numbers);
+//     console.log(numbers);
 
-    numbers.sort((a,b)=> a - b);
+//     numbers.sort((a,b)=> a - b);
     
-    console.log(numbers);
+//     console.log(numbers);
 
-}
+// }
 
 {
     // Task 8
@@ -142,4 +142,20 @@
         i++;
     }
 
+}
+
+{
+    // Task 9
+
+    let numbers = [5, 9, 21,,, 9, 78,,,,,,,, 6];
+    let summ = 0;
+
+    for (let i = 0; i < numbers.length; i++) {
+        
+        if(numbers[i] === undefined) {
+            summ++;
+        }
+    }
+
+    console.log(summ);
 }

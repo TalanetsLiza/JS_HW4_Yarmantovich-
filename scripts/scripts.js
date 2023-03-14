@@ -96,3 +96,32 @@
     console.log(arr[arr.length - 1]);
 
 }
+
+{
+    // Task 7
+
+    const numbers = [];
+
+    while (true) {
+        const message = prompt("Введите число!");
+
+        if(message === " "){
+            break
+        }
+
+        if(isNaN(message)){
+            alert("Введите число");
+            continue;
+        }
+        
+        numbers.push(+message);
+        
+    }
+
+    console.log(numbers);
+
+    numbers.sort((a,b)=> a - b);
+    
+    console.log(numbers);
+
+}

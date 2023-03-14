@@ -159,3 +159,24 @@
 
     console.log(summ);
 }
+
+{
+    // Task 10
+
+    let arr = [48,9,0,4,21,2,1,0,8,84,76,8,4,13,2];
+
+    let index = arr.indexOf(0);
+    let lastIndex = arr.lastIndexOf(0);
+    let summ = 0;
+
+    for (let i = index; i < lastIndex; i++) {
+
+        if(lastIndex < 0) {
+            break;
+        }
+
+        summ += arr[i];
+    }
+
+    console.log(summ);
+}
